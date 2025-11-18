@@ -83,3 +83,9 @@
 - [x] Adicionar LinkedIn: www.linkedin.com/in/elite-waiter-1b77b7399
 - [x] Atualizar localização para Sorocaba Interior e São Paulo região metropolitana
 - [x] Adicionar botão flutuante WhatsApp com número +5515991667415
+
+## Correções Solicitadas
+- [x] Corrigir "%VITE_APP_TITLE%" que aparece no topo do site
+- [x] Adicionar logo "EW ELITE WAITER" personalizado
+- [x] Remover Facebook das redes sociais
+- [x] Manter apenas Instagram e LinkedIn

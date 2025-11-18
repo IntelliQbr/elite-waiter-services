@@ -1,8 +1,8 @@
 export { COOKIE_NAME, ONE_YEAR_MS } from "@shared/const";
 
-export const APP_TITLE = import.meta.env.VITE_APP_TITLE || "App";
+export const APP_TITLE = "Elite Waiter Services";
 
-export const APP_LOGO = "https://placehold.co/128x128/E1E7EF/1F2937?text=App";
+export const APP_LOGO = "/logo.jpg";
 
 // Contact Information
 export const PHONE = "+5515991667415";
@@ -14,7 +14,6 @@ export const LOCATION = "Sorocaba Interior e São Paulo região metropolitana";
 export const SOCIAL_MEDIA = {
   instagram: "https://www.instagram.com/elitwaiter/",
   linkedin: "https://www.linkedin.com/in/elite-waiter-1b77b7399",
-  facebook: "https://www.facebook.com/elitewaiter",
 };
 
 // WhatsApp Link
