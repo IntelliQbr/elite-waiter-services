@@ -1,5 +1,6 @@
 import { Facebook, Instagram, Linkedin, Mail, Phone } from "lucide-react";
 import { Link } from "wouter";
+import { PHONE, EMAIL, SOCIAL_MEDIA, LOCATION } from "@/const";
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -64,23 +65,27 @@ export default function Footer() {
             <h4 className="text-lg font-semibold mb-4 text-primary">Contato</h4>
             <div className="space-y-3 mb-4">
               <a
-                href="tel:+5511999999999"
+                href={`tel:${PHONE}`}
                 className="flex items-center space-x-2 text-sm hover:text-primary transition-colors"
               >
                 <Phone size={16} />
-                <span>+55 11 99999-9999</span>
+                <span>{PHONE}</span>
               </a>
               <a
-                href="mailto:contato@elitewaiter.com"
+                href={`mailto:${EMAIL}`}
                 className="flex items-center space-x-2 text-sm hover:text-primary transition-colors"
               >
                 <Mail size={16} />
-                <span>contato@elitewaiter.com</span>
+                <span>{EMAIL}</span>
               </a>
+              <div className="text-sm text-secondary-foreground/80">
+                <p className="font-semibold">Localização:</p>
+                <p>{LOCATION}</p>
+              </div>
             </div>
             <div className="flex space-x-4">
               <a
-                href="https://facebook.com"
+                href={SOCIAL_MEDIA.facebook}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-primary transition-colors"
@@ -89,7 +94,7 @@ export default function Footer() {
                 <Facebook size={20} />
               </a>
               <a
-                href="https://instagram.com"
+                href={SOCIAL_MEDIA.instagram}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-primary transition-colors"
@@ -98,7 +103,7 @@ export default function Footer() {
                 <Instagram size={20} />
               </a>
               <a
-                href="https://linkedin.com"
+                href={SOCIAL_MEDIA.linkedin}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-primary transition-colors"

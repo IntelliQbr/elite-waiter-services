@@ -2,7 +2,8 @@ import { useState } from "react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
-import { Mail, Phone, MapPin } from "lucide-react";
+import { Mail, Phone, MapPin, MessageCircle } from "lucide-react";
+import { PHONE, EMAIL, LOCATION, getWhatsAppLink } from "@/const";
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -90,10 +91,10 @@ export default function Contact() {
                         Telefone
                       </h4>
                       <a
-                        href="tel:+5511999999999"
+                        href={`tel:${PHONE}`}
                         className="text-foreground/80 hover:text-primary transition-colors"
                       >
-                        +55 11 99999-9999
+                        {PHONE}
                       </a>
                     </div>
                   </div>
@@ -132,8 +133,7 @@ export default function Contact() {
                         Localização
                       </h4>
                       <p className="text-foreground/80">
-                        Disponível em toda a região metropolitana e cidades
-                        adjacentes
+                        {LOCATION}
                       </p>
                     </div>
                   </div>

@@ -76,3 +76,10 @@
 - [x] Otimizar imagens para carregamento rápido
 - [x] Garantir acessibilidade WCAG
 - [x] Testar responsividade em todos os dispositivos
+
+## Atualizações Solicitadas pelo Cliente
+- [x] Atualizar número de contato para +5515991667415
+- [x] Adicionar Instagram: https://www.instagram.com/elitwaiter/
+- [x] Adicionar LinkedIn: www.linkedin.com/in/elite-waiter-1b77b7399
+- [x] Atualizar localização para Sorocaba Interior e São Paulo região metropolitana
+- [x] Adicionar botão flutuante WhatsApp com número +5515991667415
