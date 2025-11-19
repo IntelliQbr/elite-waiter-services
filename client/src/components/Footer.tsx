@@ -1,4 +1,4 @@
-import { Instagram, Linkedin, Mail, Phone } from "lucide-react";
+import { Facebook, Instagram, Linkedin, Mail, Phone } from "lucide-react";
 import { Link } from "wouter";
 import { PHONE, EMAIL, SOCIAL_MEDIA, LOCATION } from "@/const";
 
@@ -84,6 +84,15 @@ export default function Footer() {
               </div>
             </div>
             <div className="flex space-x-4">
+              <a
+                href={SOCIAL_MEDIA.facebook}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-primary transition-colors"
+                aria-label="Facebook"
+              >
+                <Facebook size={20} />
+              </a>
               <a
                 href={SOCIAL_MEDIA.instagram}
                 target="_blank"

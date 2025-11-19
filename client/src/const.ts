@@ -14,6 +14,7 @@ export const LOCATION = "Sorocaba Interior e São Paulo região metropolitana";
 export const SOCIAL_MEDIA = {
   instagram: "https://www.instagram.com/elitwaiter/",
   linkedin: "https://www.linkedin.com/in/elite-waiter-1b77b7399",
+  facebook: "https://www.facebook.com/profile.php?id=61583916063355",
 };
 
 // WhatsApp Link

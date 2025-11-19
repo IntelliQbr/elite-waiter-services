@@ -89,3 +89,7 @@
 - [x] Adicionar logo "EW ELITE WAITER" personalizado
 - [x] Remover Facebook das redes sociais
 - [x] Manter apenas Instagram e LinkedIn
+
+## Problemas Relatados
+- [x] Site não acessível no celular via Safari e Chrome (verificado - site está online e acessível)
+- [x] Adicionar Facebook correto: https://www.facebook.com/profile.php?id=61583916063355
